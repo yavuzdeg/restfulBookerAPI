@@ -8,6 +8,7 @@ import static org.junit.Assert.*;
 
 public class TestGetRequest01 extends HerokuappBaseUrl {
 
+    // In this class, I use examples with "Assert" method.
 
     @Test
     public void getRequest01(){
