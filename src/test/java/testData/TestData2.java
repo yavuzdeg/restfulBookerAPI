@@ -3,13 +3,13 @@ package testData;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TestData1 {
+public class TestData2 {
 
     public Map<String, Object> bookingDatesSetUp(){
 
         Map<String, Object> bookingDates = new HashMap<>();
-        bookingDates.put("checkin", "2022-05-16");
-        bookingDates.put("checkout", "2022-05-23");
+        bookingDates.put("checkin", "2022-07-24");
+        bookingDates.put("checkout", "2022-07-28");
         return bookingDates;
     }
 
@@ -17,12 +17,12 @@ public class TestData1 {
 
         Map<String, Object> expected = new HashMap<>();
 
-        expected.put("firstname", "Aaron");
-        expected.put("lastname", "Green");
-        expected.put("totalprice", 234);
-        expected.put("depositpaid", true);
+        expected.put("firstname", "Martin");
+        expected.put("lastname", "Matt");
+        expected.put("totalprice", 456);
+        expected.put("depositpaid", false);
         expected.put("bookingdates", bookingDatesSetUp());
-        expected.put("additionalneeds", "extra blanket");
+        expected.put("additionalneeds", "extra ice");
 
         return expected;
     }
